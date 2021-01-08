@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="app1.Page3"
+             Title="Experience"
+             >
+    <ContentPage.Content>
+        <ScrollView Scrolled="ScrollView_Scrolled">
+            <StackLayout>
+                <StackLayout>
+                    <Label Text="Schools" HorizontalOptions="Center" FontSize="16"/>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Mercantec"/>
+                    <Label Text="2015 => Now"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="LightGray">
+                    <Label Text="Farsø Efterskole"/>
+                    <Label Text="2014 => 2016"/>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Moensted school"/>
+                    <Label Text="2005 => 2014"/>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Working" HorizontalOptions="Center" FontSize="16"/>
+                    <StackLayout>
+                        <Label Text="Mercantec datatekniker med speciale i programmering"/>
+                        <Label Text="2017 => now"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Couses" HorizontalOptions="Center" FontSize="16"/>
+                    <StackLayout>
+                        <Label Text="CCNA Exploration kurset,Routing Protocols and Concepts"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="Game Design"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

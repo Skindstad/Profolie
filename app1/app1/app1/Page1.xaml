@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="app1.Page1"
+             Title="Info"
+             >
+
+    <ContentPage.Content>
+        <ScrollView Scrolled="ScrollView_Scrolled">
+            <StackLayout>
+                <StackLayout  HorizontalOptions="Center" VerticalOptions="Center">
+                    <Image Source="me.jpg" HeightRequest="120"/>
+                    <Label Text="Jakob Skindstad Frederiksen" FontSize="16"/>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Birthday: 02/07-1999" FontSize="14"/>
+                    <Label Text="Address: Mønsted" FontSize="14"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="LightGray">
+                    <StackLayout HorizontalOptions="Center">
+                        <Label Text="Profil"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text=" Jeg er en meget frisk ung fyr, som er
+                            altid i godt humør. Tager alle opgaver
+                            med et smil, jeg er ikke bange for at
+                            hoppe på en opgave som jeg har ikke
+                            prøvet før. Jeg kan tilpasse mig i alle
+                            slags arbejds miljøer. Jeg kan snakke
+                            med stort set alle slags folk jeg møder."
+                        />
+                    </StackLayout>
+                </StackLayout>
+
+                <Grid HorizontalOptions="End" Background="white">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="60" />
+                    </Grid.RowDefinitions>
+                    <StackLayout>
+                        <ImageButton Source="book.png" Clicked="Button_Clicked_2"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1">
+                        <ImageButton Source="portfolio.png" Clicked="Button_Clicked_1"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="2">
+                        <ImageButton Source="image.png" Clicked="Button_Clicked"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="3">
+                        <ImageButton Source="user.png" Clicked="Button_Clicked_3"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

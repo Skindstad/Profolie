@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="app1.Page4"
+             Title="More"
+             >
+    <ContentPage.Content>
+        <ScrollView Scrolled="ScrollView_Scrolled">
+            <StackLayout>
+                <StackLayout>
+                    <StackLayout>
+                    <Label Text="Programming Language"
+                HorizontalOptions="Center" />
+                </StackLayout>
+                    <StackLayout>
+                        <Label Text="HTML, PHP, CSS, JavaScript, C#, SQL, Jquery And Ajax"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout BackgroundColor="LightGray">
+                    <StackLayout>
+                    <Label Text="Programmer"
+                HorizontalOptions="Center" />
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Windows 7,8,8,1 og 10, Office pakken, XAMPP, GitHub, Photoshop, pixlr. Unity, Visual Studio, Laragon"/>
+                </StackLayout>
+                </StackLayout>
+                <StackLayout>
+                    <StackLayout>
+                        <Label Text="Hobbys"
+                HorizontalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text=""/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
